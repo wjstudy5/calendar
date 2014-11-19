@@ -1,4 +1,4 @@
 calendar
 ========
 
-일정 공유 프로젝트
+Schedules Sharing Web Pages
