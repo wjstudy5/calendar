@@ -1,11 +1,12 @@
 
 .docs-top {
-	position: relative;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 65px;
 	background-color: #026664;
+	z-index: 1;
 }
 .docs-title {
 	position: absolute;
@@ -23,8 +24,10 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;
+	z-index: 2;
 }
 .login-area * {
+	position: relative;
 	float: left;
 }
 .unlogin-text {
