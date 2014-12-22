@@ -1,6 +1,6 @@
 
 .docs-top {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -16,6 +16,45 @@
 	font-family: nanumgothicBold;
 	font-size: 45px;
 	letter-spacing: -0.1em;
+}
+.login-area {
+	width: 390px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.login-area * {
+	float: left;
+}
+.unlogin-text {
+	color: #C7E6FF;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.login-btn {
+	background: transparent;
+	border: none;
+	font-family: nanumgothicBold;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 20px;
+	outline: 0;
+}
+.login-btn.login {
+	border: 1px #727F9E solid;
+	border-radius: 4px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.login-btn.login:hover {
+	background: #c7e6ff;
+	color: #000;
+}
+.login-btn.signup {
+	margin-top: 6px;
 }
 
 .docs-center {
