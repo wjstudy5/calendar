@@ -19,6 +19,6 @@ class UsersController extends AppController {
 		
 	}
 	public function add() {
-		
+		$this->layout = "nolayout";
 	}
 }

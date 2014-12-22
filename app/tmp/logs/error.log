@@ -166,3 +166,21 @@ Request URL: /schedule/js/users/add.js
 Stack Trace:
 #0 C:\APM_Setup\htdocs\schedule\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-22 15:48:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /schedule/css/home/test.css
+Stack Trace:
+#0 C:\APM_Setup\htdocs\schedule\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 15:48:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /schedule/js/home/test.js
+Stack Trace:
+#0 C:\APM_Setup\htdocs\schedule\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -31,6 +31,9 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		
+		echo $this->Html->css($assets_links);
+		echo $this->Html->script($assets_links);		
 	?>
 </head>
 <body>
