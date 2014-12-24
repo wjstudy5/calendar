@@ -8,6 +8,12 @@
 	background-color: #026664;
 	z-index: 1;
 }
+.docs-center {
+	width: 100%;
+	padding-top: 65px;
+	min-height: 700px;
+	padding-bottom: 80px;
+}
 .docs-title {
 	position: absolute;
 	bottom: 10px;
@@ -58,10 +64,4 @@
 }
 .login-btn.signup {
 	margin-top: 6px;
-}
-
-.docs-center {
-	width: 1600px;
-	min-height: 700px;
-	padding-bottom: 100px;
 }
