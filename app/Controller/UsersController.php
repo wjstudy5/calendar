@@ -24,4 +24,7 @@ class UsersController extends AppController {
 	public function validates_email() {
 		$this->layout = "nolayout";
 	}
+	public function login() {
+		$this->layout = "nolayout";
+	}
 }

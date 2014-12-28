@@ -35,6 +35,7 @@
 		echo $this->Html->css($assets_links);
 		echo $this->Html->script($assets_links);		
 	?>
+	<meta name = "viewport" content = "width=1600px">
 </head>
 <body>
 	<?php echo $this->fetch('content'); ?>

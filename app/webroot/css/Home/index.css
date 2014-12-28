@@ -28,33 +28,44 @@
 	color: #bad1ff;
 }
 .text-area {
-	width: 850px;
+	width: 700px;
 	height: 200px;
 	position: absolute;
 	bottom: 150px;
-	left: 23%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .title-text {
 	width: 100%;
-	margin-left: -50px;
+	padding-left: 25px;
 	text-align: center;
 	font-size: 100px;
 	letter-spacing: -0.05em;
 	font-family: nanumgothicBold;
 	margin-bottom: 30px;
-	color: #bad1ff;
+	color: #fff;
 }
 .subtitle-text {
 	width: 100%;
 	font-size: 22px;
-	margin-left: -60px;
 	margin-bottom: 5px;
 	text-align: center;
 	font-family: nanumgothic;
-	color: #fff;
+	color: #cae1ff;
+}
+.bottom-menu-area {
+	width: 100%;
+	height: 340px;
+	margin-bottom: 100px;
+	border-bottom: 1px #ccc solid;
+	box-shadow: 0px 0px 2px 0.3px #f0f0f0;	
 }
 .new-meetings-area {
-	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 520px;
 	height: 170px;
 }
 .block-label {
@@ -63,7 +74,6 @@
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
-	padding-right: 180px;
 	margin-bottom: 0;
 	font-family: nanumgothicBold;
 	letter-spacing: -0.05em;
@@ -75,7 +85,6 @@
 	font-size: 20px;
 	clear: both;
 	float: left;
-	margin-left: 29%;
 	padding: 10px;
 }
 .new-meetings-input input {
@@ -85,21 +94,15 @@
 	font-size: 21px;
 }
 .users-area {
-	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 520px;
 	height: 170px;
-	border-bottom: 1px #ddd solid;
-	margin-bottom: 100px;
-	box-shadow: 0px 0px 2px 0.3px #f0f0f0;	
-}
-.users-area-label {
-	padding-right: 195px;
 }
 .users-area-text {
-	clear: both;
-	float: left;
 	width: 100%;
 	text-align: center;
-	padding-right: 210px;
 	margin-top: 10px;
 	font-size: 18px;
 }

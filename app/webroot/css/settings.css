@@ -1,9 +1,5 @@
 
 @font-face {
-	src: url('fonts/nanumgothic.ttf');
-	font-family: nanumgothic;
-}
-@font-face {
 	src: url('fonts/nanumgothicBold.ttf');
 	font-family: nanumgothicBold;
 }

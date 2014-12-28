@@ -8,3 +8,12 @@
 		</div>
 	</div>
 </div>
+<div class = "result-area success">
+	<div class = "inner-result failure">
+		<p>이미 사용중인 이메일입니다.</p>
+	</div>
+	<div class = "inner-result success">
+		<p>사용할 수 있는 이메일입니다.</p>
+		<input type = "button" class = "btn btn-success email-submit-btn" value = "사용하기"/>
+	</div>
+</div>
