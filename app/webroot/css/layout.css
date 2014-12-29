@@ -7,6 +7,7 @@
 	height: 65px;
 	background-color: #026664;
 	z-index: 1;
+	box-shadow: 0 -1px 3px 1px #026664;
 }
 .docs-center {
 	width: 100%;

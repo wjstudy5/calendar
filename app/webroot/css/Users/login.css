@@ -1,0 +1,74 @@
+body {
+	background: #026664;
+}
+.contents-wrap {
+	margin: auto;
+	margin-top:50px;
+	width: 350px;
+}
+.login-title {
+	width: 100%;
+	height: 53px;
+	font-size: 40px;
+	font-family: nanumgothicBold;
+	color: #cae1ff;
+	padding-left: 10px;
+	letter-spacing: -0.07em;
+}
+.login-area-wrap {
+	width: 100%;
+	height: 280px;
+	background: #fff;
+}
+.login-top {
+	width: 100%;
+	height: 40px;
+	font-size: 25px;
+	font-family: nanumgothic;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 20px;
+	color: #000;
+	background: #e0e0e0;
+}
+.inputs-area {
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 20px;
+}
+.inputs-label {
+	width: 100%;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	letter-spacing: -0.02em;
+	font-family: nanumgothicBold;
+}
+.input {
+	font-family: 15px;
+	height: 33px;
+}
+.login-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #ddd;
+}
+.login-bottom-menu {
+	width: 100%;
+	list-style-type: none;
+	padding-left: 10px;
+	padding-top: 4px;
+	color: #888;
+}
+.login-bottom-menu li {
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.login-bottom-menu li:hover {
+	color: #000;
+}
