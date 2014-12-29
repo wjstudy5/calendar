@@ -32,7 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	public function beforeFilter() {
-		$this->layout = 'not_login';
+		$this->layout = 'nonmember_layout';
 		$assets_links = $this->params['controller'] . '/' . $this->params['action'];
 		$this->set('assets_links', $assets_links);
 	}

@@ -27,4 +27,7 @@ class UsersController extends AppController {
 	public function login() {
 		$this->layout = "nolayout";
 	}
+	public function create() {
+		$this->layout = "member_layout";
+	}
 }

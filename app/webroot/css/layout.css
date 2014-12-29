@@ -25,6 +25,7 @@
 	font-size: 45px;
 	letter-spacing: -0.1em;
 }
+/*--------------------------------- css for not_login layout --------------------------------*/
 .login-area {
 	width: 390px;
 	height: 40px;
@@ -65,4 +66,35 @@
 }
 .login-btn.signup {
 	margin-top: 6px;
+}
+/*---------------------------- css for login layout ------------------------------*/
+.top-menu-area {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	width: 450px;
+	height: 50px;
+}
+.top-menu-contents {
+	float: left;
+}
+.top-menu-contents.profile-area {
+	height: 40px;
+	background-color: #026E6C;
+	border-radius: 4px;
+}
+.top-profile-img {
+	width: 45px;
+	height: 35px;
+	margin-top: 2.5px;
+	margin-left: 8px;
+	float: left;
+}
+.top-profile-name {
+	margin-top: 7px;
+	margin-left: 15px;
+	padding-right: 18px;
+	font-size: 17px;
+	color: #fff;
+	float: left;
 }
