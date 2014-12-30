@@ -1974,7 +1974,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Cancel"
          * @for defaults
          **/
-        cancel: "Cancel",
+        cancel: "취소",
 
         /**
          * This label is important for accessability reasons.
@@ -2006,7 +2006,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Finish"
          * @for defaults
          **/
-        finish: "Finish",
+        finish: "완료",
 
         /**
          * Label for the next button.
@@ -2016,7 +2016,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Next"
          * @for defaults
          **/
-        next: "Next",
+        next: "다음",
 
         /**
          * Label for the previous button.
@@ -2026,7 +2026,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Previous"
          * @for defaults
          **/
-        previous: "Previous",
+        previous: "이전",
 
         /**
          * Label for the loading animation.
@@ -2036,7 +2036,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Loading ..."
          * @for defaults
          **/
-        loading: "Loading ..."
+        loading: "로딩 중 ..."
     }
 };
 })(jQuery);
