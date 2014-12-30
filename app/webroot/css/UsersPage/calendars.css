@@ -1,0 +1,412 @@
+.side-bar {
+	position: absolute;
+	left: 0px;
+	top: 65px;
+
+	height: 735px;
+	width: 250px;
+
+	background: #F0F0F0;
+}
+
+.profile {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+
+	height: 350px;
+	width: 230px;
+
+	background: #F0F0F0;
+}
+.profile-photo {
+	position: relative;
+
+	height: 200px;
+	width: 230px;
+
+	background: white;
+}
+
+.profile-name {
+	position: relative;
+
+	height: 25px;
+	width: 230px;
+
+	margin-top: 10px;
+	background: #F0F0F0;
+	text-align: center;
+}
+
+.profile-status-message {
+	position: relative;
+
+	height: 70px;
+	width: 230px;
+
+	margin-top: 10px;
+}
+
+.profile-btns {
+	position: relative;
+
+	margin-top: 5px;
+	height: 25px;
+	width: 230px;
+
+}
+
+.logout-btn {
+	height: 25px;
+	width: 110px;
+
+
+	float: left;
+	background: white	;
+}
+
+.mypage-btn {
+	height: 25px;
+	width: 110px;
+
+	margin-left: 10px;
+
+	float: left;
+	background: white;
+}
+
+.page-navigation {
+	position: relative;
+
+	height: 150px;
+	width: 250px;
+
+	margin-top: 10px;
+
+	background: #F0F0F0;
+}
+
+.mycalendar-btn {
+	width: 125px;
+	height: 150px;
+
+	float: left;
+
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+
+	outline: 0;
+
+	background: #F0F0F0;
+}
+
+.mymeetings-btn {
+	width: 125px;
+	height: 150px;
+
+	float: left;
+
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+
+	outline: 0;
+
+	background: #F0F0F0;
+}
+
+.contents {
+	position: absolute;
+	left: 250px;
+	top: 65px;
+
+	height: 735px;
+	width: -webkit-calc(100% - 250px); /* Safari, Chrome */
+	width: -moz-calc(100% - 250px); /* FF */
+	width: calc(100% - 250px); /* IE */
+
+	background: white;
+}
+
+.upper-bar {
+	position: relative;
+
+	width: 100%;
+	height: 50px;
+
+	background: white;
+
+	border-bottom: 1px solid gray;
+}
+
+.contents-title {
+	position: relative;
+
+	width: 250px;
+	height: 40px;
+
+	margin-top:8px;
+	margin-left: 40px;
+	background: white;
+
+	float: left;
+
+	font-size: 30px;
+}
+
+.calendar-btns {
+	position: relative;
+
+	width: 225px;
+	height: 35px;
+
+	margin-top: 15px;
+	margin-right: 30px;
+	background-color: white;
+
+	float:right;
+}
+
+.monthly-btn-form {
+	width: 100px;
+	height: 35px;
+
+	float:left;
+}
+.monthly-btn {
+	width: 100px;
+	height: 35px;
+
+	outline: 0px;
+	background: white;
+
+	border: 0px;
+}
+
+.weekly-btn-form {
+	width: 100px;
+	height: 35px;
+
+	margin-left: 10px;
+
+	float: left;
+}
+.weekly-btn {
+	width: 100px;
+	height: 35px;
+
+	outline: 0px;
+	background: white;
+
+	border: 0px;
+}
+
+.calendar-btn-on {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom: 3px solid green;
+}
+
+.mymeetings-btn-icon {
+	position: relative;
+
+	margin-left: 32.5px;
+	margin-top: 10px;
+
+	width: 60px;
+	height: 60px;
+
+	background-image: url("/calendar/app/webroot/img/meetings.png");
+	background-size: 60px 60px;
+}
+
+.mymeetings-btn-text {
+	position: relative;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	height: 25px;
+}
+
+.mycalendar-btn-icon {
+	position: relative;
+
+	margin-left: 32.5px;
+	margin-top: 10px;
+
+	width: 60px;
+	height: 60px;
+
+	background-image: url("/calendar/app/webroot/img/calendar.png");
+	background-size: 60px 60px;
+}
+
+.mycalendar-btn-text {
+	position: relative;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	height: 25px;
+}
+
+.below-contents {
+	position: relative;
+
+	height: 585px;
+	width: 100%;
+
+	background: gray;
+	overflow: hidden;
+}
+
+.main-below-content {
+	position: relative;
+
+	width: -webkit-calc(100% - 200px); /* Safari, Chrome */
+	width: -moz-calc(100% - 200px); /* FF */
+	width: calc(100% - 200px); /* IE */
+
+	height: 585px;
+
+	background: white;
+	float: left;
+}
+
+.main-content {
+	position: relative;
+
+	width: -webkit-calc(100% - 40px); /* Safari, Chrome */
+	width: -moz-calc(100% - 40px); /* FF */
+	width: calc(100% - 40px); /* IE */
+
+	height: 545px;
+
+	margin-top: 20px;
+	margin-left: 20px;
+
+	background: white;
+}
+.side-below-content {
+	position: relative;
+
+	width: 200px;
+	height: 585px;
+
+	background: white;
+	float: right;
+}
+
+.side-btns {
+	position: relative;
+
+	width: 100%;
+
+	height: 545px;
+
+	margin-top: 20px;
+
+	background: white;
+}
+
+.navi-on {
+	background: gray;
+}
+
+.side-btn {
+	position: relative;
+
+	width: 100%;
+
+	height: 30px;
+
+	background:white;
+
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+	outline: 0;
+
+	overflow: hidden;
+}
+
+.sync-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/sync.png");
+	background-size: 30px 30px;
+}
+
+.edit-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/edit.png");
+	background-size: 30px 30px;
+}
+
+.cancel-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/cancel2.png");
+	background-size: 30px 30px;
+}
+
+.side-btn-text {
+	position: relative;
+
+	height: 30px;
+
+	float: left;
+	margin-left: 10px;
+
+	font-size: 20px;
+}
+
+.delete-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/delete.png");
+	background-size: 30px 30px;
+}
+
+.update-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/update.png");
+	background-size: 30px 30px;
+}
+
+.create-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/create.png");
+	background-size: 30px 30px;
+}

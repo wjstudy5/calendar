@@ -1,15 +1,36 @@
 
 .center {
 	width: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	height: 550px;
+=======
 	height: 650px;
+>>>>>>> dongyong
+=======
+	height: 650px;
+>>>>>>> dongyong
 	background-color: #026664;
 }
 .menu-area {
 	width: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	height: 60px;
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+=======
+=======
+>>>>>>> dongyong
 	height: 70px;
 	position: fixed;
 	top: 0;
 	padding-top: 30px;
+<<<<<<< HEAD
+>>>>>>> dongyong
+=======
+>>>>>>> dongyong
 	padding-right: 30px;
 	background: #026664;
 	z-index: 2;
@@ -17,8 +38,18 @@
 .menu-btn {
 	background: transparent;
 	border: none;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	font-size: 17px;
+	font-family: nanumgothic;
+=======
 	font-size: 19px;
 	font-family: nanumgothicBold;
+>>>>>>> dongyong
+=======
+	font-size: 19px;
+	font-family: nanumgothicBold;
+>>>>>>> dongyong
 	color: #fff;
 	float: right;
 	margin-right: 20px;
@@ -28,6 +59,49 @@
 	color: #bad1ff;
 }
 .text-area {
+<<<<<<< HEAD
+<<<<<<< HEAD
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.title-text {
+	width: 100%;
+	padding-left: 25px;
+	text-align: center;
+	font-size: 90px;
+	letter-spacing: -0.05em;
+	font-family: nanumgothicBold;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.subtitle-text {
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: nanumgothic;
+	color: #cae1ff;
+}
+.bottom-menu-area {
+	width: 100%;
+	height: 340px;
+	margin-bottom: 100px;
+	border-bottom: 1px #ccc solid;
+	box-shadow: 0px 0px 2px 0.3px #f0f0f0;	
+}
+.new-meetings-area {
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 520px;
+=======
+=======
+>>>>>>> dongyong
 	width: 850px;
 	height: 200px;
 	position: absolute;
@@ -55,6 +129,10 @@
 }
 .new-meetings-area {
 	width: 100%;
+<<<<<<< HEAD
+>>>>>>> dongyong
+=======
+>>>>>>> dongyong
 	height: 170px;
 }
 .block-label {
@@ -63,7 +141,14 @@
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 	padding-right: 180px;
+>>>>>>> dongyong
+=======
+	padding-right: 180px;
+>>>>>>> dongyong
 	margin-bottom: 0;
 	font-family: nanumgothicBold;
 	letter-spacing: -0.05em;
@@ -75,7 +160,14 @@
 	font-size: 20px;
 	clear: both;
 	float: left;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 	margin-left: 29%;
+>>>>>>> dongyong
+=======
+	margin-left: 29%;
+>>>>>>> dongyong
 	padding: 10px;
 }
 .new-meetings-input input {
@@ -85,6 +177,20 @@
 	font-size: 21px;
 }
 .users-area {
+<<<<<<< HEAD
+<<<<<<< HEAD
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 520px;
+	height: 170px;
+}
+.users-area-text {
+	width: 100%;
+	text-align: center;
+=======
+=======
+>>>>>>> dongyong
 	width: 100%;
 	height: 170px;
 	border-bottom: 1px #ddd solid;
@@ -100,6 +206,10 @@
 	width: 100%;
 	text-align: center;
 	padding-right: 210px;
+<<<<<<< HEAD
+>>>>>>> dongyong
+=======
+>>>>>>> dongyong
 	margin-top: 10px;
 	font-size: 18px;
 }

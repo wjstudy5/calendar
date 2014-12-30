@@ -31,19 +31,11 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-
-		echo $this->Html->css($assets_links);
-		echo $this->Html->script($assets_links);
 	?>
 </head>
 <body>
 	<div class = "docs-top">
 		<h2 class = "docs-title">언제만날래?</h2>
-		<div class = "login-area">
-			<p class = "unlogin-text">비회원으로 사용중</p>
-			<input type = "button" class = "login-btn login" value = "로그인" />
-			<input type = "button" class = "login-btn signup" value = "회원가입" />
-		</div>
 	</div>
 	<div class = "docs-center">
 		<?php echo $this->fetch('content'); ?>

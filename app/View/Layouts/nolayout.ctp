@@ -31,10 +31,19 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+<<<<<<< HEAD
+<<<<<<< HEAD
 		
 		echo $this->Html->css($assets_links);
 		echo $this->Html->script($assets_links);		
 	?>
+	<meta name = "viewport" content = "width=1600px">
+=======
+	?>
+>>>>>>> dongyong
+=======
+	?>
+>>>>>>> dongyong
 </head>
 <body>
 	<?php echo $this->fetch('content'); ?>
