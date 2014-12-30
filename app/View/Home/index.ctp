@@ -24,14 +24,3 @@
 		<p class = "block-label users-area-label">내 스케줄 관리하기</p>
 		<p class = "users-area-text">간단한 회원가입 후 더 많은 서비스를 받아보세요</p>
 	</div>
-<div class = "new-meetings-area">
-	<p class = "block-label">새 일정 시작하기</p>
-	<div class = "new-meetings-input">
-		<input type = "text" class = "form-control" placeholder = "일정 이름"/>
-	</div>
-</div>
-<div class = "users-area">
-	<p class = "block-label users-area-label">내 스케줄 관리하기</p>
-	<p class = "users-area-text">간단한 회원가입 후 더 많은 서비스를 받아보세요</p>
-	</div>
-</div>
