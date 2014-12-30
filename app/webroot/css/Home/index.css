@@ -3,6 +3,7 @@
 	width: 100%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 550px;
 =======
 	height: 650px;
@@ -10,10 +11,14 @@
 =======
 	height: 650px;
 >>>>>>> dongyong
+=======
+	height: 550px;
+>>>>>>> join
 	background-color: #026664;
 }
 .menu-area {
 	width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	height: 60px;
@@ -31,6 +36,12 @@
 >>>>>>> dongyong
 =======
 >>>>>>> dongyong
+=======
+	height: 60px;
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+>>>>>>> join
 	padding-right: 30px;
 	background: #026664;
 	z-index: 2;
@@ -38,6 +49,7 @@
 .menu-btn {
 	background: transparent;
 	border: none;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	font-size: 17px;
@@ -50,6 +62,10 @@
 	font-size: 19px;
 	font-family: nanumgothicBold;
 >>>>>>> dongyong
+=======
+	font-size: 17px;
+	font-family: nanumgothic;
+>>>>>>> join
 	color: #fff;
 	float: right;
 	margin-right: 20px;
@@ -59,6 +75,7 @@
 	color: #bad1ff;
 }
 .text-area {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	width: 700px;
@@ -103,36 +120,53 @@
 =======
 >>>>>>> dongyong
 	width: 850px;
+=======
+	width: 700px;
+>>>>>>> join
 	height: 200px;
 	position: absolute;
-	bottom: 150px;
-	left: 23%;
+	bottom: 100px;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .title-text {
 	width: 100%;
-	margin-left: -50px;
+	padding-left: 25px;
 	text-align: center;
-	font-size: 100px;
+	font-size: 90px;
 	letter-spacing: -0.05em;
 	font-family: nanumgothicBold;
 	margin-bottom: 30px;
-	color: #bad1ff;
+	color: #fff;
 }
 .subtitle-text {
 	width: 100%;
-	font-size: 22px;
-	margin-left: -60px;
+	font-size: 20px;
 	margin-bottom: 5px;
 	text-align: center;
 	font-family: nanumgothic;
-	color: #fff;
+	color: #cae1ff;
 }
-.new-meetings-area {
+.bottom-menu-area {
 	width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dongyong
 =======
 >>>>>>> dongyong
+=======
+	height: 340px;
+	margin-bottom: 100px;
+	border-bottom: 1px #ccc solid;
+	box-shadow: 0px 0px 2px 0.3px #f0f0f0;	
+}
+.new-meetings-area {
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 520px;
+>>>>>>> join
 	height: 170px;
 }
 .block-label {
@@ -143,12 +177,15 @@
 	margin-top: 30px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	padding-right: 180px;
 >>>>>>> dongyong
 =======
 	padding-right: 180px;
 >>>>>>> dongyong
+=======
+>>>>>>> join
 	margin-bottom: 0;
 	font-family: nanumgothicBold;
 	letter-spacing: -0.05em;
@@ -162,12 +199,15 @@
 	float: left;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	margin-left: 29%;
 >>>>>>> dongyong
 =======
 	margin-left: 29%;
 >>>>>>> dongyong
+=======
+>>>>>>> join
 	padding: 10px;
 }
 .new-meetings-input input {
@@ -179,10 +219,14 @@
 .users-area {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> join
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 520px;
+<<<<<<< HEAD
 	height: 170px;
 }
 .users-area-text {
@@ -192,24 +236,21 @@
 =======
 >>>>>>> dongyong
 	width: 100%;
+=======
+>>>>>>> join
 	height: 170px;
-	border-bottom: 1px #ddd solid;
-	margin-bottom: 100px;
-	box-shadow: 0px 0px 2px 0.3px #f0f0f0;	
-}
-.users-area-label {
-	padding-right: 195px;
 }
 .users-area-text {
-	clear: both;
-	float: left;
 	width: 100%;
 	text-align: center;
+<<<<<<< HEAD
 	padding-right: 210px;
 <<<<<<< HEAD
 >>>>>>> dongyong
 =======
 >>>>>>> dongyong
+=======
+>>>>>>> join
 	margin-top: 10px;
 	font-size: 18px;
 }

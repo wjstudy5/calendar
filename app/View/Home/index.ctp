@@ -13,8 +13,6 @@
 		<h4 class = "subtitle-text">30초의 회원가입으로, 내 일정 저장 &amp 관리 서비스를 받아보실 수 있습니다</h4>
 	</div>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
 <div class = "bottom-menu-area">
 	<div class = "new-meetings-area">
 		<p class = "block-label">새 일정 시작하기</p>
@@ -26,9 +24,6 @@
 		<p class = "block-label users-area-label">내 스케줄 관리하기</p>
 		<p class = "users-area-text">간단한 회원가입 후 더 많은 서비스를 받아보세요</p>
 	</div>
-=======
-=======
->>>>>>> dongyong
 <div class = "new-meetings-area">
 	<p class = "block-label">새 일정 시작하기</p>
 	<div class = "new-meetings-input">
@@ -38,8 +33,5 @@
 <div class = "users-area">
 	<p class = "block-label users-area-label">내 스케줄 관리하기</p>
 	<p class = "users-area-text">간단한 회원가입 후 더 많은 서비스를 받아보세요</p>
-<<<<<<< HEAD
->>>>>>> dongyong
-=======
->>>>>>> dongyong
+	</div>
 </div>

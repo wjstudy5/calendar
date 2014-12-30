@@ -38,12 +38,15 @@
 		echo $this->Html->script($assets_links);		
 	?>
 	<meta name = "viewport" content = "width=1600px">
+<<<<<<< HEAD
 =======
 	?>
 >>>>>>> dongyong
 =======
 	?>
 >>>>>>> dongyong
+=======
+>>>>>>> join
 </head>
 <body>
 	<?php echo $this->fetch('content'); ?>

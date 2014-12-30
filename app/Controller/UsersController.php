@@ -29,7 +29,7 @@ class UsersController extends AppController {
 		  success / failure class set 
 		*/
 		$email_input = $this->params['url']['email'];
-		if ($email_input)
+		if ($email_input) {}
 	}
 	public function login() {
 		$this->layout = "nolayout";
