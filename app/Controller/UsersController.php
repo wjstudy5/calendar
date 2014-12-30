@@ -28,7 +28,7 @@ class UsersController extends AppController {
 		  check from db
 		  success / failure class set 
 		*/
-		$email_input = $this->params['url']['email'];
+//		$email_input = $this->params['url']['email'];
 		if ($email_input) {}
 	}
 	public function login() {
