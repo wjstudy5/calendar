@@ -3,9 +3,7 @@
 		<div class = "profile-photo">
 		</div>
 
-		<div class = "profile-name">
-			nobinson94님
-		</div>
+		<div class = "profile-name">nobinson94님</div>
 
 		<textarea class = "profile-status-message" readonly="readonly"></textarea>
 
