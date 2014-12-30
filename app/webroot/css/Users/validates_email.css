@@ -47,7 +47,8 @@ body {
 .result-area {
 	width: 230px;
 	height: 70px;
-	margin-left: 120px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
 }
 .inner-result {
