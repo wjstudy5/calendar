@@ -1,14 +1,16 @@
 <div class = "top-area">
 	<h1 class = "title-text">언제만날래?</h1>
-	<div class = "email-input-area">
-		<p class = "email-nav">email 중복검사</p>
-		<input type = "text" class = "form-control email-input" placeholder = "확인할 email을 입력하세요" />
-		<div class = "search-btn-area">
-			<input type = "button" class = "btn btn-default search-btn" value = "확인"/>
+	<form id = "emailValidationForm" method = "GET" action = ""> 
+		<div class = "email-input-area">
+			<p class = "email-nav">email 중복검사</p>
+			<input type = "text" name = "email" class = "form-control email-input" placeholder = "확인할 email을 입력하세요" />
+			<div class = "search-btn-area">
+				<input type = "button" id = "formSubmit" class = "btn btn-default search-btn" value = "확인"/>
+			</div>
 		</div>
-	</div>
+	</form>
 </div>
-<div class = "result-area success">
+<div class = "result-area">
 	<div class = "inner-result failure">
 		<p>이미 사용중인 이메일입니다.</p>
 	</div>

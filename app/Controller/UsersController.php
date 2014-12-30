@@ -23,11 +23,19 @@ class UsersController extends AppController {
 	}
 	public function validates_email() {
 		$this->layout = "nolayout";
+		/* 
+		  check param 
+		  check from db
+		  success / failure class set 
+		*/
+		
 	}
 	public function login() {
 		$this->layout = "nolayout";
 	}
 	public function create() {
 		$this->layout = "member_layout";
+	}
+	public function mypage() {
 	}
 }
