@@ -67,6 +67,7 @@
 .login-btn.signup {
 	margin-top: 6px;
 }
+<<<<<<< HEAD
 /*---------------------------- css for login layout ------------------------------*/
 .top-menu-area {
 	position: absolute;
@@ -199,4 +200,10 @@
 	font-size: 15px;
 	color: #fff;
 	font-weight: bold;
+}
+.docs-center {
+	width: 100%;
+	min-height: 700px;
+	padding-bottom: 80px;
+	padding-top: 65px;
 }
