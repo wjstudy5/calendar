@@ -31,4 +31,9 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	public function beforeFilter() {
+		$this->layout = 'not_login';
+		$assets_links = $this->params['controller'] . '/' . $this->params['action'];
+		$this->set('assets_links', $assets_links);
+	}
 }

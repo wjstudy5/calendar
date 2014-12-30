@@ -1,0 +1,22 @@
+
+@font-face {
+	src: url('fonts/nanumgothic.ttf');
+	font-family: nanumgothic;
+}
+@font-face {
+	src: url('fonts/nanumgothicBold.ttf');
+	font-family: nanumgothicBold;
+}
+@font-face {
+	src: url('fonts/malgothicBold.ttf');
+	font-family: malgothicBold;
+}
+
+div {
+	overflow: hidden;
+}
+body, body * {
+	position: relative;
+	font-family: nanumgothic;
+	margin: 0;
+}
