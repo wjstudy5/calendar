@@ -50,6 +50,10 @@ body {
 	font-family: 15px;
 	height: 33px;
 }
+.submit-btn {
+	margin-top: 7px;
+	font-size: 15px;
+}
 .login-bottom {
 	position: absolute;
 	bottom: 0;

@@ -23,19 +23,33 @@ class UsersController extends AppController {
 	}
 	public function validates_email() {
 		$this->layout = "nolayout";
-		/* 
-		  check param 
-		  check from db
-		  success / failure class set 
-		*/
-//		$email_input = $this->params['url']['email'];
-		if ($email_input) {}
+		$email_input = isset($this->params->query['email']) ? $this->params->query['email']: null;
+		$this->set('email', $email_input);
+		if ($email_input) {
+			$user = $this->User->find('first', array(
+				'conditions' => array('email' => $email_input)
+			));
+			$user ? $this->set('status', 'failure') : $this->set('status', 'success');
+		} else {
+			$this->set('status', '');
+		}
 	}
 	public function login() {
 		$this->layout = "nolayout";
+		if ($this->request->is('post')) {
+			$user = $this->User->validates_login($this->request->data);
+			$this->set('status', 'success');
+		}
 	}
 	public function create() {
-		$this->layout = "member_layout";
+		$this->layout = "nolayout";
+		if($this->request->is('post')) {
+			if ($this->User->save($this->request->data)) {
+				$this->redirect('/');
+			}
+		} else {
+			$this->redirect('./add');
+		}
 	}
 	public function mypage() {
 	}
