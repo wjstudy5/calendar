@@ -31,12 +31,14 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-		echo $this->Html->css($assets_links);
-		echo $this->Html->script($assets_links);		
 	?>
-	<meta name = "viewport" content = "width=1600px">
 </head>
 <body>
-	<?php echo $this->fetch('content'); ?>
+	<div class = "docs-top">
+		<h2 class = "docs-title">언제만날래?</h2>
+	</div>
+	<div class = "docs-center">
+		<?php echo $this->fetch('content'); ?>
+	</div>
 </body>
 </html>
