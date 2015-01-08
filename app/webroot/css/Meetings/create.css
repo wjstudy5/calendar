@@ -1,0 +1,112 @@
+.link-area
+{
+	height: 250px;
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-color: #AACECD;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 13px;
+	background-color: #EAF2F0;
+}
+
+.link-area > h4
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+.link-address-area
+{
+	padding: 4px;
+	height: 80px;
+	background-color: white;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-color: #AACECD;
+	border-width: 2px;
+	border-radius: 7px;
+}
+.link-address-area > h5
+{
+	width: 100px;
+	height: 68px;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: #AACECD;
+	float: left;
+	color: gray;
+	font-weight: 600;
+}
+.link-address-area > h6
+{
+	width: 1100px;
+	height: 68px;
+	float: left;
+	font-size: 24px;
+	padding-top: 19px;
+	padding-left: 20px;
+}
+.link-address-area > h6 > a
+{
+	color: #0C908D;
+	text-decoration: none;
+	font-weight: 600;
+}
+.link-address-area > h6 > a:hover
+{
+	text-decoration: none;
+	color: #026664;
+	font-weight: 600;
+}
+.ordinary-button-area
+{
+	margin-left: 120px;
+	float: left;
+	width: 670px;
+	height: 200px;
+}
+.div-button-default 
+{
+	font-size: 20px;
+	color: black;
+	font-weight: 500;
+	background-color: #EAF2F0;
+	width: 400px;
+	height: 70px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 40px;
+	text-align: right;
+}
+.share-button-area
+{
+	height: 200px;
+	float: left;
+	width: 450px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: gray;
+	padding-left: 20px;
+	font-size: 20px;
+}
+.button
+{
+	height: 40px;
+	width: 200px;
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	border-style: solid;
+	border-color: #AACECD;
+	border-width: 2px;
+}

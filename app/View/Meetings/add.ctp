@@ -6,17 +6,17 @@
 <div id = "meeting-wizard" class = "meeting-wizard">
     <h3>달력 선택</h3>
     <section>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id = "calendar-1" class =""><img src=""></div>
+        <div id = "calendar-2" class =""><img src=""></div>
+        <div id = "calendar-3" class =""><img src=""></div>
     </section>
     <h3>기간 선택</h3>
     <section>
-        <div>시작일</div>
-        <div>종료일</div>
+        <div id = "start-day">시작일</div>
+        <div id = "end-day">종료일</div>
     </section>
     <h3>소멸 날짜</h3>
     <section>
-        <p>달력 페이지3</p>
+        <div id = "delete-day"></div>
     </section>
 </div>
