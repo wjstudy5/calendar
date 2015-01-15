@@ -5,7 +5,7 @@ class UsersPageController extends AppController {
 	}
 
 	public function calendars() {
-		$this->set('type', 'monthly');
+		$this->set('type', $_GET["type"]);
 	}
 	public function create_events() {
 	}
