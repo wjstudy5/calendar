@@ -20,3 +20,9 @@ body, body * {
 	font-family: nanumgothic;
 	margin: 0;
 }
+.icon-btn {
+	background-color: transparent;
+	background-size: 100%;
+	border: none;
+	outline: 0;
+}
