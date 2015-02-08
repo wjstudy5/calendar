@@ -21,4 +21,22 @@ class MeetingsType1Event extends AppModel {
 		}
 		return $nicknames;
 	}
+
+	public function getEvents ($meetingsId) {
+		$events_rows = $this->find('all', array(
+			'conditions' => array('MeetingsType1Event.meetings_id' => $meetingsId),
+			'order'=>array('MeetingsType1Event.nickname'=>'DESC')
+			)) ;
+		$events = array();
+		foreach($events_rows as $row) {
+			$nickname = $row['MeetingsType1Event']['nickname'];
+			if (!isset($events[$nickname])) {
+				$events[$nickname] = array();
+				array_push ($events[$nickname], $row['MeetingsType1Event']);
+			} else {
+				array_push ($events[$nickname], $row['MeetingsType1Event']);
+			}
+		}
+		return $events;
+	}
 }

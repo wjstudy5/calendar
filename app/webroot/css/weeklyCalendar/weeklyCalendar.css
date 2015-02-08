@@ -1,0 +1,101 @@
+body {
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-user-select: none;
+}
+
+.calendar {
+	width: 1200px;
+	height: 600px;
+}
+
+.weekly-calendar {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: nanumgothic;
+}
+
+.weekly-calendar thead {
+	float: left;
+	width: 1200px;
+}
+
+.weekly-calendar tbody {
+	overflow-y: auto;
+	overflow-x: hidden;
+	float: left;
+	width: 1200px;
+	height: 600px;
+}
+
+.weekly-calendar tbody tr:nth-child(even) {
+	background-color: #fafafa;
+}
+
+.weekly-calendar tbody tr:nth-child(even):hover {
+	background-color: #71C1E9;
+}
+
+.weekly-calendar tbody tr:nth-child(odd):hover {
+	background-color: #71C1E9;
+}
+
+.weekly-calendar td, .weekly-calendar th {
+	border : 1px #ddd solid;
+}
+
+.weekly-axis {
+	width: 80px;
+}
+
+.day-head {
+	width : 150px;
+}
+
+
+
+.content-time {
+	text-align: center;
+	width: 80px;
+	height: 20px;
+}
+
+.content-day {
+	width: 150px;
+	height: 20px;
+}
+
+.content-day:hover {
+	background-color: #3a87ad;
+	padding: 1px;
+}
+
+
+
+.content-day.selected {
+	background-color: #3a87ad;
+	padding: 2px;
+}
+.content-day.selecting {
+	background-color: #71C1E9;
+	padding: 2px;
+}
+.content-day.selecting-cancel {
+	background-color: #BAEAFA;
+	padding: 2px;	
+}
+
+.hidden {
+	display: none;
+}
+
+.event-box {
+	background-color: #71C1E9;
+}
+
+.calendar-user-save {
+	position: absolute;
+	top : 50px;
+	left : 1200px;
+	z-index: 1000;
+}
