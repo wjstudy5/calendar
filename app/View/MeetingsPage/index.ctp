@@ -30,7 +30,7 @@
 				<!-- create all calendar-->
 				<?php
 					if ($type == 3) {
-						echo $this->Type3Calendar->show("all");
+						echo $this->Type3Calendar->show(NULL);
 					} 
 				?>
 			</div>

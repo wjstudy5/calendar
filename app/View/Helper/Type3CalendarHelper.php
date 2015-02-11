@@ -1,6 +1,10 @@
 <?php
 	class Type3CalendarHelper extends AppHelper {
 		public function show($user) {
+			$eventNum = sizeof($user);
+			debug($eventNum);
+			$index = 0;
+			$day = array('sun','mon','tue','wed','thu','fri','sat');
 			ob_start();?> 
 <div class = 'calendar'>
 	<table class = 'weekly-calendar'>
@@ -18,6 +22,46 @@
 		</thead>
 		<tbody class = 'calendar-content'>
 			<?php for($time = 0; $time < 24; $time += 0.5): ?>
+				<?php
+					if ($user != NULL && $index < $eventNum && $user[$index]['time'] == (string)$time) {
+						$index++;
+						ob_start();
+				?>
+				<tr time = '<?php echo $time; ?>'>
+					<td class = 'content-time'>
+						<?php
+							if (intval($time) == floatval($time)) {
+								if ($time < 12) {
+									echo $time.'am';
+								} else {
+									echo $time.'pm';
+								}
+							}
+						?>
+					</td>
+					<?php 
+						for($dayIndex = 0; $dayIndex < 7; $dayIndex++) {
+							if ($day[$dayIndex] == $user[$index]['day']) {
+								ob_start();
+					?>
+					<td day = '<?php echo $day[$dayIndex];?>' class = 'content-day content-<?php echo $day[$dayIndex];?> selected'></td>
+					<?php
+								ob_end_flush();
+							} else {
+								ob_start();
+					?>
+					<td day = '<?php echo $day[$dayIndex];?>' class = 'content-day content-<?php echo $day[$dayIndex];?>'></td>
+					<?php
+								ob_end_flush();
+							}
+						}
+					?>
+				</tr>
+				<?php
+						ob_end_flush();
+					} else {
+						ob_start();
+				?>
 				<tr time = '<?php echo $time; ?>'>
 					<td class = 'content-time'>
 						<?php
@@ -38,6 +82,10 @@
 					<td day = 'fri' class = 'content-day content-fri'></td>
 					<td day = 'sat' class = 'content-day content-sat'></td>
 				</tr>
+				<?php
+						ob_end_flush();
+					}
+				?>
 			<?php endfor ?>
 		</tbody>
 	</table>
