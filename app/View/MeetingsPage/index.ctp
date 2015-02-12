@@ -20,7 +20,7 @@
 			
 			<div class = "meeting-add meeting-btn">
 				<div class = "vertical-line"></div>
-				<input type = "button" class = "meeting-add-btn" value= "새로 추가하기"/>
+				<input type = "button" class = "user-add-btn" value= "새로 추가하기"/>
 			</div>
 		</div>
 	</div>
@@ -46,6 +46,14 @@
 					 <input type = "button" class = "calendar-user-save" value = "save"/>
 				</div>
 			<?php endforeach ?>
+
+			<div class = "meeting-calendar-new">
+				<?php
+					if ($type == 3) {
+						echo $this->Type3Calendar->show(NULL);
+					} 
+				?>
+			</div>
 		</div>
 		<div class = "meeting-info">
 			<!-- <div class = "meeting-recommended-date">

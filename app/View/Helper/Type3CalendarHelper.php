@@ -2,7 +2,6 @@
 	class Type3CalendarHelper extends AppHelper {
 		public function show($user) {
 			$eventNum = sizeof($user);
-			debug($eventNum);
 			$index = 0;
 			$day = array('sun','mon','tue','wed','thu','fri','sat');
 			ob_start();?> 
@@ -23,8 +22,7 @@
 		<tbody class = 'calendar-content'>
 			<?php for($time = 0; $time < 24; $time += 0.5): ?>
 				<?php
-					if ($user != NULL && $index < $eventNum && $user[$index]['time'] == (string)$time) {
-						$index++;
+					if (isset($user) && $index < $eventNum && $user[$index]['time'] == $time) {
 						ob_start();
 				?>
 				<tr time = '<?php echo $time; ?>'>
@@ -59,6 +57,7 @@
 				</tr>
 				<?php
 						ob_end_flush();
+						$index++;
 					} else {
 						ob_start();
 				?>

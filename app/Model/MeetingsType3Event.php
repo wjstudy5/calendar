@@ -5,36 +5,13 @@ App::uses('AppModel', 'Model');
  *
  */
 
-function array_msort($array, $cols)
-{
-    $colarr = array();
-    foreach ($cols as $col => $order) {
-        $colarr[$col] = array();
-        foreach ($array as $k => $row) { $colarr[$col]['_'.$k] = strtolower($row[$col]); }
-    }
-    $eval = 'array_multisort(';
-    foreach ($cols as $col => $order) {
-        $eval .= '$colarr[\''.$col.'\'],'.$order.',';
-    }
-    $eval = substr($eval,0,-1).');';
-    eval($eval);
-    $ret = array();
-    foreach ($colarr as $col => $arr) {
-        foreach ($arr as $k => $v) {
-            $k = substr($k,1);
-            if (!isset($ret[$k])) $ret[$k] = $array[$k];
-            $ret[$k][$col] = $array[$k][$col];
-        }
-    }
-    return $ret;
-
-}
 
 class MeetingsType3Event extends AppModel {
+	
 	public function getNickname($meetingsId) {
 		$events_rows = $this->find('all', array(
 			'conditions' => array('MeetingsType3Event.meetings_id' => $meetingsId),
-			'order'=>array('MeetingsType3Event.nickname'=>'DESC'),
+			'order'=>array('MeetingsType3Event.nickname'=>'ASC'),
 			'fields'=>array('MeetingsType3Event.nickname')
 			)) ;
 		$nicknames = array();
@@ -64,6 +41,17 @@ class MeetingsType3Event extends AppModel {
 				array_push ($events[$nickname], $row['MeetingsType3Event']);
 			}
 		}
+		foreach ($events as &$user) {
+			foreach ($user as &$event) {
+				$event['time'] = $this->changeTimeForm($event['time']);
+			}
+		}
 		return $events;
 	}
+	
+	public function changeTimeForm ($time) {
+		return  (float)str_replace(":",".",(str_replace("30", "50", $time)));
+	}
+
 }
+

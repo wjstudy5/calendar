@@ -115,6 +115,25 @@ function selectTableByDrag (startCell,endCell,condition) {
 	endTime = undefined;
 }
 
+function mergeCalendar (ratio,allCalendar) {
+	allCalendar.find(".content-day.selected").removeClass("selected");
+	allCalendar.find(".content-day").css({
+		opacity: function(index,value) {
+			return parseFloat(0.1);
+		} 
+	});
+	$(".content-day.selected").each(function() {
+		var time = $(this).closest("tr").attr("time");
+		var day = $(this).attr("day");
+		var contentDay = allCalendar.find('tr[time ="' + time + '"]').find(".content-day[day ='" + String(day) + "']");
+		contentDay.addClass("selected");
+		contentDay.css({
+			opacity: function(index,value) {
+				return parseFloat(value) * ratio;
+			}
+		});
+	});
+}
 
 //for문을 이용하기위해 요일을 숫자로 변환한다.
 function changeDayToCode (day) {
