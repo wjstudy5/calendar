@@ -1,7 +1,10 @@
 body {
 	-webkit-user-select: none;
-  	-moz-user-select: none;
-  	-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+
 }
 
 .calendar {
@@ -18,6 +21,7 @@ body {
 .weekly-calendar thead {
 	float: left;
 	width: 1200px;
+	pointer-events : none;
 }
 
 .weekly-calendar tbody {
@@ -46,6 +50,7 @@ body {
 
 .weekly-axis {
 	width: 80px;
+	pointer-events: none;
 }
 
 .day-head {
@@ -74,15 +79,15 @@ body {
 
 .content-day.selected {
 	background-color: #3a87ad;
-	padding: 2px;
+	padding: 3px;
 }
 .content-day.selecting {
 	background-color: #71C1E9;
-	padding: 2px;
+	padding: 3px;
 }
 .content-day.selecting-cancel {
 	background-color: #BAEAFA;
-	padding: 2px;	
+	padding: 3px;	
 }
 
 .hidden {
@@ -91,11 +96,4 @@ body {
 
 .event-box {
 	background-color: #71C1E9;
-}
-
-.calendar-user-save {
-	position: absolute;
-	top : 50px;
-	left : 1200px;
-	z-index: 1000;
 }

@@ -27,7 +27,8 @@
 		echo $this->Html->css('layout');
 		
 		echo $this->Html->script('jquery-2.1.1.min');
-
+		echo $this->Html->script('jquery.cookie');
+		
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');

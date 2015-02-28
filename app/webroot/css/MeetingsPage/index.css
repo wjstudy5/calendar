@@ -194,11 +194,16 @@
 	top:0;
 	left: 0;
 	display: none;
-	z-index: 5;
 }
 
 .meeting-calendar-user.selected {
 	display: block;
+}
+
+.calendar-save {
+	position: absolute;
+	top : 50px;
+	left : 1200px;
 }
 
 .meeting-calendar-all {
@@ -227,3 +232,7 @@
 	display: block;
 }
 
+.modal-title.nickname-error {
+	color: red;
+	display: none;
+}
